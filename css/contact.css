@@ -1,0 +1,97 @@
+.div-formbox-main {
+    display: grid;
+    place-items: center;
+}
+
+.div-container-flex {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+
+
+
+    .div-flex-left {
+        width: 50%;
+        position: relative;
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: calibri;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            position: absolute;
+            /* Đặt vị trí tuyệt đối để có thể căn giữa */
+            top: 50%;
+            /* Di chuyển phần tử lên trên 50% */
+            left: 50%;
+            /* Di chuyển phần tử sang trái 50% */
+            transform: translate(-50%, -50%);
+            /* Dịch chuyển phần tử đi lùi 50% của chính nó về cả hai hướng */
+            width: 500px;
+            /* padding: 30px; */
+            /* border-radius: 10px;
+            background-color: #003b5b; */
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-weight: bolder;
+            color: rgb(88, 197, 120);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #submit {
+            border: none;
+            background-color: orange;
+            color: white;
+            width: 200px;
+            margin-top: 10px;
+            border-radius: 0.2em;
+            font-weight: bold;
+            font-size: 19px;
+
+            &:hover {
+                background-color: #333333;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+    .div-flex-right {
+        width: 50%;
+        /* display: grid; */
+        text-align: center;
+
+        img {
+            width: 500px;
+            place-items: center;
+
+        }
+    }
+
+}

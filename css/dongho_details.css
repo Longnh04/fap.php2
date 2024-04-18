@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color-nau: #584b4b;
+    --secondary-color-nau: #3d2e2e;
+    --third-color-nau-light: hsl(32, 10%, 64%);
+    --white: #ffffff;
+    --black: #000000;
+    --xam-light: #dddcdc;
+    --bs-light-rgb: 248, 249, 250;
+
+
+}
+
+header {
+    margin-bottom: 70px;
+}
+
+body {
+    background-color: #ffffff !important;
+}
+
+.body_main_product--details {
+    background-color: #ffffff !important;
+    padding-top: 100px;
+}
+
+.body_main_product--details h4 {
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.body_main--child {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.body_main--child .ing_left--Pdetails img {
+    width: 400px;
+    border-radius: 0.2rem;
+    padding: 20px;
+    background-color: var(--third-color-nau-light);
+}
+
+/* This is for the small img view */
+.div-slides-ims-small {
+    /* padding: px; */
+    background-color: var(--white);
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.div-slides-ims-small .div-container {
+    display: flex;
+    justify-content: space-between;
+
+
+    img {
+        width: 90px;
+        margin: 0 5px;
+        background-color: var(--white);
+        border: 1px solid rgb(209, 204, 204);
+        border-radius: 0.3em;
+        padding: 0;
+
+
+    }
+}
+
+.div-btn-slides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    z-index: 9999;
+    /* padding: 0 20px; */
+
+    i {
+        font-size: 30px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+
+
+}
+
+
+
+.body_main--child .infor_center--Pdetails {
+    /* background-color: #ffecc4; */
+    padding: 20px;
+}
+
+.body_main--child .infor_center--Pdetails .product_price {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+.body_main--child .infor_center--Pdetails .product_price p {
+    margin-bottom: 0;
+    align-items: center;
+    color: red;
+    width: 300px;
+}
+
+.div_Freeship {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    margin: 0 0px;
+    justify-content: center;
+    background-color: var(--main-color-nau);
+    /* border-radius: 0.2rem; */
+    color: var(--white);
+
+    p {
+        margin: 0;
+        align-items: center;
+        padding: 10px;
+        font-size: 15px;
+        color: var(--white);
+
+    }
+
+}
+
+
+.infor_center--Pdetails h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.chosse_opption--radio {
+    display: flex;
+    gap: 20px;
+}
+
+.chosse_opption--radio .opption_1--container {
+    /* background-color: #DAC0A3; */
+    padding: 10px;
+    border-radius: 0.2px;
+    height: 80px;
+    border: 0.5px solid #e0dbdb;
+}
+
+.chosse_opption--radio .opption_1--container .opption_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 4px;
+    border-width: 2px;
+    grid-area: auto;
+    margin: 0px 10px 10px 0px;
+    gap: 10px;
+    margin-bottom: -10px;
+
+}
+
+.chosse_opption--radio .opption_1--container .opption_items input {
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.chosse_opption--radio .opption_1--container .opption_items p {
+    align-items: center;
+    margin: 0;
+}
+
+.chosse_opption--radio .opption_2--container {
+    /* background-color: #DAC0A3; */
+    padding: 10px;
+    border-radius: 0.2px;
+    height: 80px;
+    border: 0.5px solid #e0dbdb;
+}
+
+.chosse_opption--radio .opption_2--container .opption_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 4px;
+    border-width: 2px;
+    grid-area: auto;
+    margin: 0px 10px 10px 0px;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.chosse_opption--radio .opption_2--container .opption_items input {
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.chosse_opption--radio .opption_2--container .opption_items p {
+    align-items: center;
+    margin: 0;
+}
+
+.btn_acctive--main {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+    button {
+        padding: 8px;
+        border: 0.3px solid var(--xam-light);
+        border-radius: 0.2em;
+        font-weight: bold;
+
+        &:hover {
+            transform: scale(1.03);
+            background-color: var(--main-color-nau);
+            color: var(--white) !important;
+            transition: .3s ease-in-out;
+        }
+    }
+}
+
+
+
+
+
+.Infomation_details--sell {
+    padding-top: 30px;
+    padding-right: 20px;
+
+
+
+    li {
+        text-align: justify;
+
+        &:hover {
+            color: red;
+            cursor: pointer;
+            transition: 0.5s ease-out;
+            transform: scale(1.01);
+        }
+    }
+
+
+}
+
+/* đây là phần css cho div right nha, chủ yếu div này dùng để ghi địa chỉ thôi. */
+.body_main--child .infor_right--details {
+    background-color: #f7f7f7;
+    padding: 25px;
+
+    width: 70%;
+    border-radius: 0.2em;
+
+    h6 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        background-color: var(--main-color-nau);
+        color: var(--white);
+    }
+
+    p {
+        text-align: justify;
+        font-size: 16.5px;
+        color: #000000;
+    }
+
+}
+
+.body_main--child .infor_right--details .div-address {
+
+    .div-address-details {
+        margin-bottom: 10px;
+    }
+}

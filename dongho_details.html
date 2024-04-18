@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đồng hồ giá tốt</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="/css/dongho_details.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- script================================================== -->
+  <script src="js/modernizr.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+  tabindex="0">
+  <!-- header start here - import by another html file -->
+  <div id="headerContainer"></div>
+  <!-- Js to import header -->
+  <script>
+    fetch('./header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('headerContainer').innerHTML = data;
+      });
+  </script>
+
+  <!-- kết thúc phần header và tiếp theo là phần body...ở phần này sẽ code về chi tiết của sản phẩm -->
+
+  <div class="body_main_product--details">
+    <div class="product_name--details">
+      <h4>1</h4>
+    </div>
+
+    <div class="body_main--child">
+
+      <div class="ing_left--Pdetails">
+        <img class="img-main" src="/images_new/applewatch3.png" alt="Ảnh sản phẩm nhé">
+
+        <!-- đây sẽ là phần swiper - slide chuyển của từng ảnh sản phẩm nhỏ trong danh mục -->
+        <div class="div-slides-ims-small">
+          <div class="div-container">
+            <img src="./images_new/1.jpg" alt="img1">
+            <img src="./images_new/2.jpg" alt="img1">
+            <img src="./images_new/3.jpg" alt="img1">
+            <img src="./images_new/4.jpg" alt="img1">
+          </div>
+        </div>
+        <div class="div-btn-slides">
+          <div class="btn-items"><i class="fa-solid fa-caret-left"></i></div>
+          <div class="btn-items"><i class="fa-solid fa-caret-right"></i></div>
+
+        </div>
+
+      </div>
+      <div class="infor_center--Pdetails">
+        <div class="product_price">
+          <h2>$120|</h2>
+          <p>Prices include VAT</p>
+        </div>
+        <div class="div_Freeship">
+          <i class="fa-solid fa-truck-fast"></i>
+          <p>Free shipping nationwide</p>
+        </div>
+        <h5> Chosse your option</h5>
+
+        <div class="chosse_opption--radio">
+          <div class="opption_1--container">
+            <div class="opption_items">
+              <input type="radio" name="radio" id="opption">
+              <p>1000 GB</p>
+            </div>
+            <div class="opption_price">
+              <h5>$120</h5>
+            </div>
+          </div>
+          <div class="opption_2--container">
+            <div class="opption_items">
+              <input type="radio" name="radio" id="opption">
+              <p>2000 GB</p>
+            </div>
+            <div class="opption_price">
+              <h5>$210</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn_acctive--main">
+          <button>Buy now</button>
+          <button>Add to cart</button>
+          <button>Installment</button>
+
+        </div>
+
+        <div class="Infomation_details--sell">
+          <ul>
+            <h5>PAYMENT INCENTIVES</h5>
+            <li class="li_items">Additional discount of up to 300,000 VND when paying via VNPAY (January 4 - March 31,
+              2024. Limited number of codes).</li>
+            <li class="li_items">Immediate discount of 50%, up to 400,000 VND or free installment conversion when
+              opening a TPBank EVO card.</li>
+            <li class="li_items">Pay in installments via Home PayLater for up to 1,000,000 VND.</li>
+            <li class="li_items">VIB - Receive a Voucher of 250,000 VND when successfully opening a VIB credit card.
+            </li>
+          </ul>
+          <ul>
+            <h5>INCLUDED OFFER</h5>
+            <li>Discount up to 200,000 VND when buying now and paying later through Kredivo. 0% installment offer via
+              Shinhan Finance.</li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+      <div class="infor_right--details">
+        <h6>WARRANTY INFORMATION</h6>
+        <p><i class="fa-solid fa-tag"></i> Genuine 12 month warranty.</p>
+        <p><i class="fa-solid fa-tag"></i> 1 for 1 exchange within the first 30 days if there is a hardware error due to
+          the manufacturer.</p>
+        <h6>SEE AVAILABILITY ADDRESS</h6>
+
+        <div class="div-address">
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 348 Ho Tung Mau, Cau Diem, Tu Liem, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 102 Pho Xom, Phu Lam, Ha Dong, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 392 Truong Dinh, Hoang Mai, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 348 Ho Tung Mau, Cau Diem, Tu Liem, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i>330 Nguyen Trai, Thanh Xuan, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i>So 15 Tran Phu, Ba Dinh, Ha Noi </a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 348 Ho Tung Mau, Cau Diem, Tu Liem, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 194 Le Duan, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+          <div class="div-address-details">
+            <a href="#"><i class="fa-solid fa-tag"></i> 382 Nguyen Van Cu, Ha Noi</a><br>
+            <strong><i class="fa-solid fa-headset"></i> 0945673245 - <a href="#"> Direct <i
+                  class="fa-solid fa-location-dot"></i></a></strong><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Kết thúc phần body và ở phần tiếp theo này sẽ là phần foooter -->
+
+  <section id="latest-blog" class="padding-large">
+    <div class="container">
+      <div class="row">
+        <div class="display-header d-flex justify-content-between pb-3">
+          <h2 class="display-7 text-dark text-uppercase">Latest Posts</h2>
+          <div class="btn-right">
+            <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Read Blog</a>
+          </div>
+        </div>
+        <div class="post-grid d-flex flex-wrap justify-content-between">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card border-none me-3">
+              <div class="card-image">
+                <img src="images/post-item1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body text-uppercase">
+              <div class="card-meta text-muted">
+                <span class="meta-date">feb 22, 2023</span>
+                <span class="meta-category">- Gadgets</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#">Get some cool gadgets in 2023</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card border-none me-3">
+              <div class="card-image">
+                <img src="images/post-item2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body text-uppercase">
+              <div class="card-meta text-muted">
+                <span class="meta-date">feb 25, 2023</span>
+                <span class="meta-category">- Technology</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#">Technology Hack You Won't Get</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card border-none me-3">
+              <div class="card-image">
+                <img src="images/post-item3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body text-uppercase">
+              <div class="card-meta text-muted">
+                <span class="meta-date">feb 22, 2023</span>
+                <span class="meta-category">- Camera</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#">Top 10 Small Camera In The World</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="review-content position-relative">
+          <div class="swiper-icon swiper-arrow swiper-arrow-prev position-absolute d-flex align-items-center">
+            <svg class="chevron-left">
+              <use xlink:href="#chevron-left" />
+            </svg>
+          </div>
+          <div class="swiper testimonial-swiper">
+            <div class="quotation text-center">
+              <svg class="quote">
+                <i style="font-size: 120px; color: #c2b1b1; text-align: center;" class="fa-solid fa-quote-right"></i>
+                <!-- <use style="color: #bbaaaa;" xlink:href="#quote" /> -->
+              </svg>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center d-flex justify-content-center">
+                <div class="review-item col-md-10">
+                  <i class="icon icon-review"></i>
+                  <blockquote>“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi
+                    mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”
+                  </blockquote>
+                  <div class="rating">
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-half">
+                      <use xlink:href="#star-half"></use>
+                    </svg>
+                    <svg class="star star-empty">
+                      <use xlink:href="#star-empty"></use>
+                    </svg>
+                  </div>
+                  <div class="author-detail">
+                    <div class="name text-dark text-uppercase pt-2">Emma Chamberlin</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide text-center d-flex justify-content-center">
+                <div class="review-item col-md-10">
+                  <i class="icon icon-review"></i>
+                  <blockquote>“A blog is a digital publication that can complement a website or exist independently. A
+                    blog may include articles, short posts, listicles, infographics, videos, and other digital content.”
+                  </blockquote>
+                  <div class="rating">
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-fill">
+                      <use xlink:href="#star-fill"></use>
+                    </svg>
+                    <svg class="star star-half">
+                      <use xlink:href="#star-half"></use>
+                    </svg>
+                    <svg class="star star-empty">
+                      <use xlink:href="#star-empty"></use>
+                    </svg>
+                  </div>
+                  <div class="author-detail">
+                    <div class="name text-dark text-uppercase pt-2">Jennie Rose</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-icon swiper-arrow swiper-arrow-next position-absolute d-flex align-items-center">
+            <svg class="chevron-right">
+              <use xlink:href="#chevron-right" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <section id="subscribe" class="container-grid padding-large position-relative overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div
+          class="subscribe-content bg-dark d-flex flex-wrap justify-content-center align-items-center padding-medium">
+          <div class="col-md-6 col-sm-12">
+            <div class="display-header pe-3">
+              <h2 class="display-7 text-uppercase text-light">Subscribe Us Now</h2>
+              <p>Get latest news, updates and deals directly mailed to your inbox.</p>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <form class="subscription-form validate">
+              <div class="input-group flex-wrap">
+                <input class="form-control btn-rounded-none" type="email" name="EMAIL"
+                  placeholder="Your email address here" required="">
+                <button class="btn btn-medium btn-primary text-uppercase btn-rounded-none" type="submit"
+                  name="subscribe">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="instagram" class="padding-large overflow-hidden no-padding-top">
+    <div class="container">
+      <div class="row">
+        <div class="display-header text-uppercase text-dark text-center pb-3">
+          <h2 class="display-7">Shop Our instagram</h2>
+        </div>
+        <div class="d-flex flex-wrap">
+          <figure class="instagram-item pe-2">
+            <a href="https://templatesjungle.com/" class="image-link position-relative">
+              <img src="images/insta-item1.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay position-absolute d-flex justify-content-center">
+                <svg class="instagram">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </div>
+            </a>
+          </figure>
+          <figure class="instagram-item pe-2">
+            <a href="https://templatesjungle.com/" class="image-link position-relative">
+              <img src="images/insta-item2.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay position-absolute d-flex justify-content-center">
+                <svg class="instagram">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </div>
+            </a>
+          </figure>
+          <figure class="instagram-item pe-2">
+            <a href="https://templatesjungle.com/" class="image-link position-relative">
+              <img src="images/insta-item3.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay position-absolute d-flex justify-content-center">
+                <svg class="instagram">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </div>
+            </a>
+          </figure>
+          <figure class="instagram-item pe-2">
+            <a href="https://templatesjungle.com/" class="image-link position-relative">
+              <img src="images/insta-item4.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay position-absolute d-flex justify-content-center">
+                <svg class="instagram">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </div>
+            </a>
+          </figure>
+          <figure class="instagram-item pe-2">
+            <a href="https://templatesjungle.com/" class="image-link position-relative">
+              <img src="images/insta-item5.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay position-absolute d-flex justify-content-center">
+                <svg class="instagram">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </div>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- this is a footer -->
+    <div id="footer-container"></div>
+    <!-- Js to import footer -->
+    <script>
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
+
+ 
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

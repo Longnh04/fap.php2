@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-container-product-cart {
+    width: 100%;
+    padding: 100px;
+
+
+}
+
+.div-container-product-cart .div-product-items {
+    display: flex;
+
+
+}
+
+.div-header-product-items {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 3px solid gray;
+}
+
+.div-product-items {
+    width: 100%;
+    margin-bottom: 25px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+
+.div-left-img {
+    width: 15%;
+
+    h5 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    img {
+        border: 2px solid rgb(167, 162, 162);
+        border-radius: 5px;
+    }
+}
+
+.div-right-infor {
+    width: 85%;
+    display: flex;
+
+    .div-description {
+        width: 65%;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        h5 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .div-btn-options {
+            display: flex;
+            gap: 10px;
+            padding-top: 5px;
+
+            button {
+                padding: 3px 20px;
+                border: none;
+
+                &:hover {
+                    transform: scale(1.03);
+                }
+            }
+
+        }
+    }
+
+    .div-prices {
+        width: 15%;
+
+        h5 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    .div-quantity {
+        width: 15%;
+
+
+        h5 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        input {
+            width: 35%;
+            box-shadow: rgba(119, 122, 124, 0.3) 0px 0px 0px 1.5px;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+    }
+
+    .div-subtotal {
+        width: 15%;
+
+        h5 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+.div-btn-action {
+    float: right;
+
+
+}
+
+.div-btn-action button {
+    padding: 5px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(151, 151, 151);
+    font-size: 17px;
+    color: white;
+    border-radius: 0.2em;
+
+    &:hover {
+        transform: scale(1.03);
+        background-color: rgb(124, 124, 124);
+    }
+}

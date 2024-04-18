@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-font: "calibri";
+    --heading-font: "Jost", sans-serif;
+}
+ 
+:root {
+    --main-color-nau: #584b4b;
+    --secondary-color-nau: #3d2e2e;
+    --white: #ffffff;
+    --red: red;
+    --primary-color-xanh: #72AEC8;
+    --black: #000000;
+    --xam-light: #dddcdc;
+    --bs-light-rgb: 248, 249, 250;
+
+}
+
+.div-container-main {
+    padding-top: 130px;
+    width: 100%;
+
+    .div-link {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+
+        a {
+
+            padding: 5px;
+            font-size: 16px;
+
+            &:hover {
+                text-decoration: underline 1px;
+                transition: 0.5s ease;
+                transform: scale(1.04);
+
+            }
+        }
+    }
+
+    .div-container-login {
+        display: flex;
+
+        .div-login-left {
+            width: 50%;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            .div-banner {
+                display: grid;
+                place-items: center;
+                align-items: center;
+
+                img {
+                    width: 95%;
+                }
+
+            }
+
+
+        }
+
+        .div-login-right {
+            width: 50%;
+            padding-left: 30px;
+            padding-right: 30px;
+
+
+            .div-content-main {
+                display: grid;
+                width: 80%;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                input {
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    outline: none;
+                    border: none;
+                    border-bottom: 3px solid var(--xam-light);
+                    font-size: 18px;
+                }
+
+                input:focus {
+                    outline: none;
+                    border: none;
+                    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+                }
+
+
+                .remember-me-forgot {
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: space-around;
+
+
+                    .remember-me {
+                        width: 50%;
+                    }
+
+                    .forgot-pass {
+                        width: 50%;
+
+                    }
+
+
+                }
+
+                .div-btn-submit {
+                    width: 100%;
+                    font-size: 18px;
+
+                    button {
+                        width: 100%;
+                        padding: 8px;
+                        border: none;
+                        background-color: #6c7ae0;
+                        font-weight: bolder;
+                        color: var(--white);
+                        transition: 0.3s ease-in-out;
+
+                        &:hover {
+                            background-color:#72AEC8;
+                        }
+                    }
+                }
+
+                .div-dont-account {
+                    padding-top: 10px;
+                    display: flex;
+                    gap: 5px;
+
+                    a {
+                        font-weight: bolder;
+                        color: var(--red);
+                        /* transition: .2s; */
+
+                        &:hover {
+                            transform: scale(1.05);
+                        }
+
+                    }
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }
+}
